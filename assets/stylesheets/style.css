@@ -148,13 +148,13 @@ text.axis {
 
 .axis path,
 .axis line {
-    fill: none;
+    : none;
     stroke: #000;
     shape-rendering: crispEdges;
 }
 
 .bar {
-    fill: orange;
+    fill: steelblue;
 }
 
 .x.axis path {
