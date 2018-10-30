@@ -11,7 +11,7 @@ var margin = {top: 30, right: 0, bottom: 20, left: 0},
     formatNumber = d3.format(","),
     transitioning;
 
-var color = d3.scaleLinear().domain([0, 1/4*5000000, 2/4*5000000, 3/4*5000000, 5000000]).range(["#CE8313", "#5B6472", "#004BBF", "#0012C2"]);
+var color = d3.scaleLinear().domain([0, 1/4*5000000, 2/4*5000000, 3/4*5000000, 5000000]).range(["#AE8241", "#85765F", "#5D697E", "#345D9C"]);
 
 // sets x and y scale to determine size of visible boxes
 var x = d3.scaleLinear()
